@@ -16,7 +16,9 @@ This project demonstrates a basic image encryption and decryption technique for 
 
 ## Setup Instructions
 1. **Clone or Download the Project**
-   - Download the project files, including `image-encryption-decryption.py` (the Jupyter notebook) and this `README.md`.
+   ```
+   git clone https://github.com/khaledkamr/image-encryption-decryption.git
+   ```
 
 2. **Install Dependencies**
    - Open a terminal and ensure you have Python installed.
@@ -38,14 +40,7 @@ This project demonstrates a basic image encryption and decryption technique for 
      ```
      jupyter notebook
      ```
-   - Open `image-encryption-decryption.py` in the Jupyter interface.
 
 4. **Prepare the Input Image**
    - Save an image as `input_image.jpg` in the same directory as the notebook.
    - The code will convert it to grayscale for processing.
-
-## Usage
-1. **Run the Notebook**
-   - Open `image-encryption-decryption.py` in Jupyter Notebook.
-   - Select a kernel (e.g., `base (python 3.12.7)` in VS Code) as prompted.
-   - Run all cells in the notebook.
